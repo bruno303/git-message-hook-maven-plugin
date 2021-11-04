@@ -1,0 +1,6 @@
+#!/bin/bash
+
+params=""
+params+="-Dgit-directory=../"
+
+mvnDebug io.github.gitmessagehook:git-message-hook-maven-plugin:1.0.0-SNAPSHOT:commit-message "$params"
